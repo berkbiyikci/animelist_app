@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986897557677",
+    "project_id": "kraken-anime-list",
+    "storage_bucket": "kraken-anime-list.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986897557677:android:34fb92c93e47ca91a8fe24",
+        "android_client_info": {
+          "package_name": "com.example.kraken_animelist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcy9hXdgbPRFD_rW8U0vMUS4lzDvKL1ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

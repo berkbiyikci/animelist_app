@@ -1,0 +1,71 @@
+name: kraken_animelist
+description: An anime list and detail app using Flutter with native method channels.
+
+# App Version
+version: 1.0.0+1
+
+# Environment
+environment:
+  sdk: '>=2.19.6 <4.0.0'
+
+# Dependencies
+dependencies:
+  # Flutter
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.0.0
+  bloc: ^8.0.0
+  equatable: ^2.0.5
+
+  # Service Locator
+  get_it: ^7.6.0
+  easy_localization: ^3.0.2
+
+  # DateFormat
+
+  # Database
+  floor: any
+
+  # HTTP Client
+  retrofit: ^4.4.0
+
+  # JSON Serialization
+  json_annotation: ^4.7.0
+
+  # Firebase Crashlytics (optional)
+  firebase_core: ^2.3.0
+  firebase_crashlytics: ^3.2.0
+
+  # Other Dependencies
+  cached_network_image: ^3.2.1
+  pigeon: ^14.0.0
+
+# Dev Dependencies
+dev_dependencies:
+  # Flutter test
+  flutter_test:
+    sdk: flutter
+
+  # Code generation for JSON serialization and dependency injection
+  build_runner: ^2.1.11
+  retrofit_generator: ^8.1.0
+  mockito: ^5.0.12
+  bloc_test: ^9.1.7
+
+
+
+  # Linting
+  # Golden tests (optional)
+  golden_toolkit: ^0.15.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+# Generate files with build_runner
+scripts:
+  generate:
+    command: flutter pub run build_runner build --delete-conflicting-outputs
